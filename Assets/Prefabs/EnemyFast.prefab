@@ -58,11 +58,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7134394785105016132, guid: dca1ce2c404cf5940b8f03270060884a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: -5304396038475686106, guid: dca1ce2c404cf5940b8f03270060884a,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3cda085cd70951d44972ae6d8c787c07, type: 2}
+    - target: {fileID: -5151492872390713093, guid: dca1ce2c404cf5940b8f03270060884a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -5069531478518834764, guid: dca1ce2c404cf5940b8f03270060884a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: -3692600423840342213, guid: dca1ce2c404cf5940b8f03270060884a,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -90,14 +105,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dca1ce2c404cf5940b8f03270060884a,
         type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dca1ce2c404cf5940b8f03270060884a,
+        type: 3}
       propertyPath: m_TagString
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250163066507786643, guid: dca1ce2c404cf5940b8f03270060884a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4314722597813798244, guid: dca1ce2c404cf5940b8f03270060884a,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3cda085cd70951d44972ae6d8c787c07, type: 2}
+    - target: {fileID: 5788240856288092216, guid: dca1ce2c404cf5940b8f03270060884a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303906797054990637, guid: dca1ce2c404cf5940b8f03270060884a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908311948669537042, guid: dca1ce2c404cf5940b8f03270060884a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -142,7 +182,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 3864727178128726926}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
+  m_Radius: 0.6
   m_Speed: 6
   m_Acceleration: 8
   avoidancePriority: 50
@@ -170,11 +210,11 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.26
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.5, z: 0}
@@ -203,7 +243,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!114 &3655778514966096599
 MonoBehaviour:
@@ -220,6 +260,7 @@ MonoBehaviour:
   maxHealth: 20
   damage: 15
   attackCooldown: 1
+  attackRange: 0.7
   enemyAudioSource: {fileID: 1159993495060558553}
   growlSounds:
   - {fileID: 8300000, guid: a9444a13e8af1ba43b4f32287384eccb, type: 3}

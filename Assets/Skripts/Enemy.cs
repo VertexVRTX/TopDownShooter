@@ -12,6 +12,9 @@ public class Enemy : MonoBehaviour
     public float attackCooldown = 1f;
     private float nextAttackTime;
 
+    [Header("Attack Distance")]
+    public float attackRange = 0.5f;
+
     private Transform playerTransform;
     private NavMeshAgent agent;
     public System.Action OnEnemyDestroyed;
@@ -37,6 +40,7 @@ public class Enemy : MonoBehaviour
             playerTransform = player.transform;
         }
 
+        if (enemyAudioSource == null) enemyAudioSource = GetComponent<AudioSource>();
         nextGrowlTime = Time.time + Random.Range(1f, maxGrowlInterval);
     }
 
@@ -45,6 +49,18 @@ public class Enemy : MonoBehaviour
         if (playerTransform != null && agent.enabled)
         {
             agent.SetDestination(playerTransform.position);
+
+            float distanceToPlayer = Vector3.Distance(transform.position, playerTransform.position);
+
+            if (distanceToPlayer <= attackRange && Time.time >= nextAttackTime)
+            {
+                PlayerHealth playerHealth = playerTransform.GetComponent<PlayerHealth>();
+                if (playerHealth != null)
+                {
+                    playerHealth.TakeDamage(damage);
+                    nextAttackTime = Time.time + attackCooldown;
+                }
+            }
         }
 
         if (Time.time >= nextGrowlTime)
@@ -54,23 +70,10 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    void PlayGrowl()
-    {
-        if (enemyAudioSource != null && growlSounds.Length > 0)
-        {
-            AudioClip randomClip = growlSounds[Random.Range(0, growlSounds.Length)];
-
-            enemyAudioSource.PlayOneShot(randomClip);
-        }
-    }
-
     public void TakeDamage(float damageAmount)
     {
         currentHealth -= damageAmount;
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
+        if (currentHealth <= 0) Die();
     }
 
     void Die()
@@ -89,16 +92,12 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
-    void OnTriggerStay(Collider other)
+    void PlayGrowl()
     {
-        if (other.CompareTag("Player") && Time.time >= nextAttackTime)
+        if (enemyAudioSource != null && growlSounds.Length > 0)
         {
-            PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
-            if (playerHealth != null)
-            {
-                playerHealth.TakeDamage(damage);
-                nextAttackTime = Time.time + attackCooldown;
-            }
+            AudioClip randomClip = growlSounds[Random.Range(0, growlSounds.Length)];
+            enemyAudioSource.PlayOneShot(randomClip);
         }
     }
 }
