@@ -42,7 +42,7 @@ A fast-paced, 3D Top-Down Shooter built with Unity. Face endless waves of smart 
 | Action | Input |
 | :--- | :--- |
 | **Move** | `W`, `A`, `S`, `D` / Arrow Keys |
-| **Aim** | Mouse Movement (Custom Crosshair) |
+| **Aim** | Mouse Movement |
 | **Shoot** | `Left Mouse Button (Fire1)` |
 | **Switch Weapon** | `Q` (After Wave 5) |
 | **Menus** | `UI Interaction` |
