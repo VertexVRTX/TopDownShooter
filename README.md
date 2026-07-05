@@ -76,4 +76,4 @@ A fast-paced, 3D Top-Down Shooter built with Unity. Face endless waves of smart 
 
 ### Play in Browser (Quick Demo)
 You can play the fully functional WebGL demo directly in your browser without downloading anything:
-**[Play Arena Survival Demo on itch.io]([https://vertexvrtx.itch.io/endless-runner-demo](https://vertexvrtx.itch.io/topdownshooter)**
+**[Play Arena Survival Demo on itch.io]([https://vertexvrtx.itch.io/endless-runner-demo](https://vertexvrtx.itch.io/topdownshooter))**
