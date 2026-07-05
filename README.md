@@ -4,6 +4,19 @@ A fast-paced, 3D Top-Down Shooter built with Unity. Face endless waves of smart 
 
 <img width="600" height="337" alt="ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/e3d4ad1a-6b3c-4d37-b3ed-1a8159f8cdf6" />
 
+## How to Run
+
+### Run the Code in Unity
+1. Open project in Unity (2022.3+ recommended)
+2. Open the MainMenu Scene
+3. Press Play
+
+### Play in Browser (Quick Demo)
+You can play the fully functional WebGL demo directly in your browser without downloading anything:
+**[Play Arena Survival Demo on itch.io](https://vertexvrtx.itch.io/topdownshooter)**
+
+---
+
 ## Key Features
 
 ### Core Gameplay & Mechanics
@@ -64,16 +77,3 @@ A fast-paced, 3D Top-Down Shooter built with Unity. Face endless waves of smart 
 * **Language**: C# (Object-Oriented Programming, C# Actions/Events for UI-to-Spawner decoupled communication)
 * **AI Navigation**: Unity NavMesh Components with dynamic Carving Obstacles
 * **UI System**: Unity UI (UGUI) with EventSystem integrations
-
----
-
-## How to Run
-
-### Run the Code in Unity
-1. Open project in Unity (2022.3+ recommended)
-2. Open the MainMenu Scene
-3. Press Play
-
-### Play in Browser (Quick Demo)
-You can play the fully functional WebGL demo directly in your browser without downloading anything:
-**[Play Arena Survival Demo on itch.io](https://vertexvrtx.itch.io/topdownshooter)**
