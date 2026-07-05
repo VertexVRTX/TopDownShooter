@@ -2,6 +2,8 @@
 
 A fast-paced, 3D Top-Down Shooter built with Unity. Face endless waves of smart enemies, manage resources, unlock powerful weapons, and defeat giant bosses in a highly dynamic arena environment. Optimized for smooth gameplay and commercial-grade polish.
 
+<img width="600" height="337" alt="ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/e3d4ad1a-6b3c-4d37-b3ed-1a8159f8cdf6" />
+
 ## Key Features
 
 ### Core Gameplay & Mechanics
@@ -24,22 +26,22 @@ A fast-paced, 3D Top-Down Shooter built with Unity. Face endless waves of smart 
 ### Dual Weapon & UI Switching
 > Toggle weapons using the **Q** key. Ammunition counts persist between switches.
 
-![Weapon Switching Demo]
+<img width="1280" height="699" alt="ezgif com-video-to-gif-converter (1)" src="https://github.com/user-attachments/assets/0e47ecb3-68af-420f-a317-d2f01ca0bfcd" />
 
 ### Tactical Dash Escape & Advanced Enemy AI
 > Use the dash to escape deadly tight traps, gliding straight through crowds while the smart enemy AI attempts to encircle you.
 
-![Dash and AI Flanking Demo]
+<img width="800" height="450" alt="ezgif com-video-to-gif-converter (2)" src="https://github.com/user-attachments/assets/55160f7a-b345-4d38-b866-ff5ac41e72ed" />
 
 ### Strategic Hazards & Shields
 > Detonate explosive barrels to wipe out groups of enemies, or grab the Energy Shield to activate a protective glowing dome.
 
-![Hazards and Shield Demo]
+<img width="1280" height="720" alt="ezgif com-video-to-gif-converter (3)" src="https://github.com/user-attachments/assets/c6881f6b-0604-40db-9d1c-76faf7836312" />
 
 ### Mega Boss Wave
 > Survived 4 waves? Face the towering, slow-moving Mega Boss with high HP and devastating melee damage.
 
-![Mega Boss Fight]
+<img width="1280" height="720" alt="ezgif com-video-to-gif-converter (4)" src="https://github.com/user-attachments/assets/6b2eda1a-4a7d-4535-b1ca-d4c63be7783c" />
 
 ---
 
