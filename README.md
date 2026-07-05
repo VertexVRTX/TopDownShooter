@@ -36,12 +36,12 @@ A fast-paced, 3D Top-Down Shooter built with Unity. Face endless waves of smart 
 ### Strategic Hazards & Shields
 > Detonate explosive barrels to wipe out groups of enemies, or grab the Energy Shield to activate a protective glowing dome.
 
-<img width="1280" height="720" alt="ezgif com-video-to-gif-converter (3)" src="https://github.com/user-attachments/assets/c6881f6b-0604-40db-9d1c-76faf7836312" />
+<img width="800" height="450" alt="ezgif com-video-to-gif-converter (2)" src="https://github.com/user-attachments/assets/2dbe4efd-77a5-474e-a1e8-ad8877ac8c9e" />
 
 ### Mega Boss Wave
 > Survived 4 waves? Face the towering, slow-moving Mega Boss with high HP and devastating melee damage.
 
-<img width="1280" height="720" alt="ezgif com-video-to-gif-converter (4)" src="https://github.com/user-attachments/assets/6b2eda1a-4a7d-4535-b1ca-d4c63be7783c" />
+<img width="800" height="450" alt="ezgif com-video-to-gif-converter (3)" src="https://github.com/user-attachments/assets/5926c383-c312-480c-80ea-a33eadf8a168" />
 
 ---
 
