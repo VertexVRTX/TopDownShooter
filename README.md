@@ -26,7 +26,7 @@ A fast-paced, 3D Top-Down Shooter built with Unity. Face endless waves of smart 
 ### Dual Weapon & UI Switching
 > Toggle weapons using the **Q** key. Ammunition counts persist between switches.
 
-<img width="600" height="327" alt="ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/ad0b7c19-0883-4b6c-a752-e60b6faf81b9" />
+<img width="800" height="437" alt="ezgif com-video-to-gif-converter (1)" src="https://github.com/user-attachments/assets/e71859e4-0ef5-48aa-96c2-e3352cc172e0" />
 
 ### Tactical Dash Escape & Advanced Enemy AI
 > Use the dash to escape deadly tight traps, gliding straight through crowds while the smart enemy AI attempts to encircle you.
